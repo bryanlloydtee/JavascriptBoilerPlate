@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/bryanlloydtee/JavascriptBoilerPlate#readme",
   "dependencies": {
+    "express": "^4.16.3",
+    "localtunnel": "^1.9.0",
     "nsp": "^3.2.1"
   }
 }
