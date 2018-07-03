@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nsp check"
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node ./buildScripts/srcServer.js",
+    "share": "lt --port 3000"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,8 @@
   },
   "homepage": "https://github.com/bryanlloydtee/JavascriptBoilerPlate#readme",
   "dependencies": {
+    "chalk": "^2.4.1",
     "express": "^4.16.3",
-    "localtunnel": "^1.9.0",
-    "nsp": "^3.2.1"
+    "localtunnel": "^1.9.0"
   }
 }
